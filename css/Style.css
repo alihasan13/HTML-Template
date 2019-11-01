@@ -1,0 +1,68 @@
+
+
+/*css for footer*/
+#footer{
+    padding: 10px 20px;
+    background-color: lightgreen;
+}
+
+
+/*for image in the about page*/
+#imageid{
+    position: relative;
+    border-radius: 50%;
+    border-color:greenyellow;
+    border-width: 10px;
+    border-style: solid;
+    
+}
+
+
+/*smooth inpage scrolling*/
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+.font{
+    font-size: 22px;
+    font-family:Lobster;
+
+}
+#page-heading{
+    text-align: center;
+    
+}
+/* css for about me paragraph*/
+.para-design{
+    font-size: 18px;
+    font-family: Rakkas;
+}
+#msg{
+    height: 200px;
+    
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
